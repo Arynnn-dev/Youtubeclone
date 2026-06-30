@@ -3,9 +3,7 @@
     <head>
       <title>Youtube.com clone</title>
       <style>
-        .thumbnail{
-        width: 300px;
-        }
+        
         .search-bar{
             font-size: 20px;
             border:none;
@@ -13,11 +11,18 @@
             box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
             padding-top: 4px;
             padding-bottom: 4px;
+           display:block;
         }
+        .thumbnail{
+        width: 300px;
+        display: inline-block;
+        }
+        
       </style>
     </head>
     <body>
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        
         <input class="search-bar" type="text" placeholder="Search">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     </body>
 </html>
