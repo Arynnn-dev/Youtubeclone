@@ -18,11 +18,59 @@
         display: inline-block;
         }
         
+        .details{
+          color: gray;
+          font-size: 15px;
+          margin:0;
+          padding-bottom:3px;
+          
+        }
+        .video-preview{
+          display:inline-block;
+          margin-right: 10px;
+          width:300px;
+        }
+        .profilepic{
+      display:inline-block;
+      width:50px;
+      vertical-align:top;
+        }
+        .videoinfo{
+          display:inline-block;
+          width: 200px;
+        }
+        .pfp{ 
+          width:100%;
+        }
+        .title{
+          margin-top:0;
+        }
       </style>
     </head>
     <body>
         
         <input class="search-bar" type="text" placeholder="Search">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+       <div class="video-preview">
+        <div><img class="thumbnail" src="thumbnails/thumbnail-1.webp"></div>
+        
+       
+       <div>
+      <div class="profilepic">
+        <img class= "pfp" src="pfp/channel-1.jpeg"></div>
+        <div class="videoinfo"> <p class="title">
+Talking Tech and AI with Google CEO Sundar Pichai!</p>
+<p class="details">Marques Brownlee</p>
+<p class="details"> 3.4M views &#183; 6 months ago</p>
+</div>
+</div>
+</div>
+
+<!-- <div class="video-preview">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <p class="title">
+Talking Tech and AI with Google CEO Sundar Pichai!</p>
+<p class="details">Marques Brownlee</p>
+<p class="details"> 3.4M views &#183; 6 months ago</p>
+</div> -->
     </body>
 </html>
